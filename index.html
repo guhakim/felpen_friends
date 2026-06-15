@@ -107,7 +107,7 @@
 <body class="bg-background text-charcoal font-inter overflow-x-hidden">
 
   <!-- ── Nav ── -->
-  <nav class="sticky top-0 z-50 flex justify-between items-center
+  <nav class="sticky top-0 z-50 flex flex-wrap justify-between items-center
               px-margin-mobile md:px-margin-desktop py-4
               bg-background/95 backdrop-blur-sm
               border-b-2 border-charcoal">
@@ -116,7 +116,14 @@
       FELPEN FRIENDS
     </a>
 
-    <div class="hidden md:flex items-center gap-1">
+    <a href="#contact"
+       class="btn-offset bg-primary text-white px-6 py-2
+              font-inter font-bold text-sm tracking-widest uppercase
+              border-2 border-charcoal md:hidden">
+      Hire Me
+    </a>
+
+    <div class="flex items-center gap-1 w-full justify-center pt-2 order-last md:pt-0 md:w-auto md:order-none">
       <a href="#featured" class="px-4 py-2 font-inter font-bold text-sm tracking-widest uppercase hover:text-primary transition-colors">Work</a>
       <a href="#more"     class="px-4 py-2 font-inter font-bold text-sm tracking-widest uppercase hover:text-primary transition-colors">More</a>
       <a href="#" id="open-about" class="px-4 py-2 font-inter font-bold text-sm tracking-widest uppercase hover:text-primary transition-colors">About</a>
@@ -126,7 +133,7 @@
     <a href="#contact"
        class="btn-offset bg-primary text-white px-6 py-2
               font-inter font-bold text-sm tracking-widest uppercase
-              border-2 border-charcoal">
+              border-2 border-charcoal hidden md:inline-block">
       Hire Me
     </a>
   </nav>
